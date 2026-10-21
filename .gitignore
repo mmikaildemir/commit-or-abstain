@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+data/rows_cache/
+data/train.jsonl
+data/validation.jsonl
+data/*.parquet
+batches/
+figures/*.pdf
+figures/*.png
+.DS_Store

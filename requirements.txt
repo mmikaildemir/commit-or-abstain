@@ -1,0 +1,11 @@
+# analysis and figures
+numpy
+scikit-learn
+matplotlib
+# building the training split
+pandas
+pyarrow
+# distillation (GPU)
+torch
+transformers
+peft

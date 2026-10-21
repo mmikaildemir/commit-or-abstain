@@ -1,0 +1,82 @@
+[
+ {
+  "name": "Jev",
+  "kind": "S1",
+  "wrong_when_absent": 0.3012,
+  "cost_per_1k": 0.0373,
+  "n": 5314,
+  "n_absent": 1670
+ },
+ {
+  "name": "pplx-decider",
+  "kind": "S1",
+  "wrong_when_absent": 0.5653,
+  "cost_per_1k": 0.0125,
+  "n": 5314,
+  "n_absent": 1670
+ },
+ {
+  "name": "d1-ultra",
+  "kind": "S1",
+  "wrong_when_absent": 0.4096,
+  "cost_per_1k": 0.023,
+  "n": 5314,
+  "n_absent": 1670
+ },
+ {
+  "name": "Luna Decisions",
+  "kind": "S1",
+  "wrong_when_absent": 0.6084,
+  "cost_per_1k": 0.0618,
+  "n": 5314,
+  "n_absent": 1670
+ },
+ {
+  "name": "Gemini 3.8 Flash",
+  "kind": "LLM",
+  "wrong_when_absent": 0.3784,
+  "cost_per_1k": 0.7812,
+  "n": 5314,
+  "n_absent": 1670
+ },
+ {
+  "name": "Claude Haiku 5.5",
+  "kind": "LLM",
+  "wrong_when_absent": 0.8107,
+  "cost_per_1k": 0.0745,
+  "n": 5313,
+  "n_absent": 1669
+ },
+ {
+  "name": "GPT-6 Luna",
+  "kind": "LLM",
+  "wrong_when_absent": 0.6707,
+  "cost_per_1k": 0.1029,
+  "n": 5314,
+  "n_absent": 1670
+ },
+ {
+  "name": "GPT-4o-mini",
+  "kind": "LLM",
+  "wrong_when_absent": 0.8563,
+  "cost_per_1k": 0.0905,
+  "n": 5314,
+  "n_absent": 1670
+ },
+ {
+  "name": "GLM 5.3 Flash",
+  "kind": "LLM",
+  "wrong_when_absent": 0.6162,
+  "cost_per_1k": 0.0713,
+  "n": 5314,
+  "n_absent": 1670
+ },
+ {
+  "name": "Mistral Small",
+  "kind": "LLM",
+  "wrong_when_absent": 0.6515,
+  "cost_per_1k": 0.2452,
+  "n": 5314,
+  "n_absent": 1670
+ }
+]

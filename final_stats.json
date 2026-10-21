@@ -1,0 +1,327 @@
+[
+ {
+  "name": "Jev 1.14",
+  "kind": "S1",
+  "original_n": 5314,
+  "original_acc": 0.7830259691381257,
+  "original_acc_ci": [
+   0.7721114038389161,
+   0.7939405344373354
+  ],
+  "original_macro_f1": 0.7830443255314609,
+  "original_ece": 0.05051561911930742,
+  "original_cost_per_1k": 0.03524866202484004,
+  "abstain_n": 5314,
+  "abstain_acc": 0.6392547986450885,
+  "abstain_acc_ci": [
+   0.6262702295822355,
+   0.6518630033872789
+  ],
+  "abstain_macro_f1": 0.6462791032615552,
+  "abstain_ece": 0.056330447873541585,
+  "abstain_cost_per_1k": 0.03730266277756868,
+  "wrong_when_absent": 0.3011976047904192,
+  "wrong_when_absent_ci": [
+   0.27844311377245506,
+   0.32335329341317365
+  ],
+  "false_none": 0.26207464324917673,
+  "false_none_ci": [
+   0.24753018660812295,
+   0.27690038419319424
+  ],
+  "auroc_none": 0.7843190676824179
+ },
+ {
+  "name": "pplx-decider v1.2",
+  "kind": "S1",
+  "original_n": 5314,
+  "original_acc": 0.8805043281896876,
+  "original_acc_ci": [
+   0.8718479488144524,
+   0.8889725254045916
+  ],
+  "original_macro_f1": 0.880473549215532,
+  "original_ece": 0.014013730889026976,
+  "original_cost_per_1k": 0.01167184042152804,
+  "abstain_n": 5314,
+  "abstain_acc": 0.7312758750470455,
+  "abstain_acc_ci": [
+   0.7196085811065112,
+   0.7435077154685735
+  ],
+  "abstain_macro_f1": 0.743377650090379,
+  "abstain_ece": 0.07589527737661808,
+  "abstain_cost_per_1k": 0.012521373729770417,
+  "wrong_when_absent": 0.5652694610778443,
+  "wrong_when_absent_ci": [
+   0.5419161676646707,
+   0.588622754491018
+  ],
+  "false_none": 0.01783754116355653,
+  "false_none_ci": [
+   0.013995609220636663,
+   0.022502744237102086
+  ],
+  "auroc_none": 0.8866184754530455
+ },
+ {
+  "name": "d1-ultra",
+  "kind": "S1",
+  "original_n": 5314,
+  "original_acc": 0.8494542717350395,
+  "original_acc_ci": [
+   0.8394759126834777,
+   0.8596161083929243
+  ],
+  "original_macro_f1": 0.8494650522333854,
+  "original_ece": 0.04439702300929867,
+  "original_cost_per_1k": 0.021448184418517122,
+  "abstain_n": 5314,
+  "abstain_acc": 0.7359804290553256,
+  "abstain_acc_ci": [
+   0.7250611592021077,
+   0.748588633797516
+  ],
+  "abstain_macro_f1": 0.7489018275808136,
+  "abstain_ece": 0.05614065063895682,
+  "abstain_cost_per_1k": 0.023027286413248024,
+  "wrong_when_absent": 0.4095808383233533,
+  "wrong_when_absent_ci": [
+   0.38562874251497004,
+   0.4329491017964071
+  ],
+  "false_none": 0.09495060373216246,
+  "false_none_ci": [
+   0.08507135016465422,
+   0.10455543358946214
+  ],
+  "auroc_none": 0.8555315275048149
+ },
+ {
+  "name": "GPT-6 Luna Decisions",
+  "kind": "S1",
+  "original_n": 5314,
+  "original_acc": 0.7216785848701543,
+  "original_acc_ci": [
+   0.7094467444486263,
+   0.7341033120060217
+  ],
+  "original_macro_f1": 0.7215865340471307,
+  "original_ece": 0.0776910048927362,
+  "original_cost_per_1k": 0.05779644335716975,
+  "abstain_n": 5314,
+  "abstain_acc": 0.5820474219044035,
+  "abstain_acc_ci": [
+   0.5686864885208882,
+   0.5954083552879187
+  ],
+  "abstain_macro_f1": 0.5938247469497978,
+  "abstain_ece": 0.09586751975912683,
+  "abstain_cost_per_1k": 0.061775159954836276,
+  "wrong_when_absent": 0.6083832335329341,
+  "wrong_when_absent_ci": [
+   0.5838323353293413,
+   0.6299550898203592
+  ],
+  "false_none": 0.09549945115257959,
+  "false_none_ci": [
+   0.08589462129527992,
+   0.10482985729967069
+  ],
+  "auroc_none": 0.7256614104392751
+ },
+ {
+  "name": "Gemini 3.8 Flash",
+  "kind": "LLM",
+  "original_n": 5314,
+  "original_acc": 0.8823861497929997,
+  "original_acc_ci": [
+   0.8739179525780956,
+   0.891230711328566
+  ],
+  "original_macro_f1": 0.8823963568721556,
+  "original_ece": null,
+  "original_cost_per_1k": 0.6589848042905533,
+  "abstain_n": 5314,
+  "abstain_acc": 0.7837786977794505,
+  "abstain_acc_ci": [
+   0.7730523146405721,
+   0.7948814452389913
+  ],
+  "abstain_macro_f1": 0.7920442765757673,
+  "abstain_ece": null,
+  "abstain_cost_per_1k": 0.7811745389537073,
+  "wrong_when_absent": 0.3784431137724551,
+  "wrong_when_absent_ci": [
+   0.35508982035928144,
+   0.40119760479041916
+  ],
+  "false_none": 0.04198682766190999,
+  "false_none_ci": [
+   0.0354006586169045,
+   0.048298572996706916
+  ]
+ },
+ {
+  "name": "Claude Haiku 5.5",
+  "kind": "LLM",
+  "original_n": 5314,
+  "original_acc": 0.7515995483628152,
+  "original_acc_ci": [
+   0.740120436582612,
+   0.7632668423033496
+  ],
+  "original_macro_f1": 0.7516222359223355,
+  "original_ece": null,
+  "original_cost_per_1k": 0.06609938840797892,
+  "abstain_n": 5313,
+  "abstain_acc": 0.5650291737248259,
+  "abstain_acc_ci": [
+   0.551665725578769,
+   0.5782044042913608
+  ],
+  "abstain_macro_f1": 0.5746306648346882,
+  "abstain_ece": null,
+  "abstain_cost_per_1k": 0.074466930171278,
+  "wrong_when_absent": 0.8106650689035351,
+  "wrong_when_absent_ci": [
+   0.7908927501497903,
+   0.8286399041342121
+  ],
+  "false_none": 0.02607025246981339,
+  "false_none_ci": [
+   0.020856201975850714,
+   0.03128430296377607
+  ]
+ },
+ {
+  "name": "GPT-6 Luna",
+  "kind": "LLM",
+  "original_n": 5314,
+  "original_acc": 0.7760632292058712,
+  "original_acc_ci": [
+   0.7651486639066617,
+   0.7877305231464057
+  ],
+  "original_macro_f1": 0.7759999852632299,
+  "original_ece": null,
+  "original_cost_per_1k": 0.07726856417011667,
+  "abstain_n": 5314,
+  "abstain_acc": 0.6213774934136244,
+  "abstain_acc_ci": [
+   0.608769288671434,
+   0.6345502446368084
+  ],
+  "abstain_macro_f1": 0.631184180499372,
+  "abstain_ece": null,
+  "abstain_cost_per_1k": 0.1028521151674821,
+  "wrong_when_absent": 0.6706586826347305,
+  "wrong_when_absent_ci": [
+   0.6467065868263473,
+   0.6946107784431138
+  ],
+  "false_none": 0.027716794731064764,
+  "false_none_ci": [
+   0.022502744237102086,
+   0.03321212952799118
+  ]
+ },
+ {
+  "name": "Mistral Small",
+  "kind": "LLM",
+  "original_n": 5314,
+  "original_acc": 0.7088821979676326,
+  "original_acc_ci": [
+   0.6957094467444487,
+   0.7216832894241626
+  ],
+  "original_macro_f1": 0.7086647785028637,
+  "original_ece": null,
+  "original_cost_per_1k": 0.23430263492660897,
+  "abstain_n": 5314,
+  "abstain_acc": 0.570380127963869,
+  "abstain_acc_ci": [
+   0.5570191945803538,
+   0.5835575837410614
+  ],
+  "abstain_macro_f1": 0.5806228258854406,
+  "abstain_ece": null,
+  "abstain_cost_per_1k": 0.24522636808430562,
+  "wrong_when_absent": 0.651497005988024,
+  "wrong_when_absent_ci": [
+   0.6281437125748504,
+   0.6736526946107785
+  ],
+  "false_none": 0.0765642151481888,
+  "false_none_ci": [
+   0.06778265642151482,
+   0.0853457738748628
+  ]
+ },
+ {
+  "name": "GLM 5.3 Flash",
+  "kind": "LLM",
+  "original_n": 5314,
+  "original_acc": 0.7463304478735416,
+  "original_acc_ci": [
+   0.7348513360933383,
+   0.7574378998870906
+  ],
+  "original_macro_f1": 0.7463187036007161,
+  "original_ece": 0.13616084070796464,
+  "original_cost_per_1k": 0.06549007573579224,
+  "abstain_n": 5314,
+  "abstain_acc": 0.6082047421904403,
+  "abstain_acc_ci": [
+   0.5950319909672563,
+   0.6215703801279638
+  ],
+  "abstain_macro_f1": 0.6193238099710893,
+  "abstain_ece": 0.26826634382566583,
+  "abstain_cost_per_1k": 0.07125783279732781,
+  "wrong_when_absent": 0.6161676646706586,
+  "wrong_when_absent_ci": [
+   0.5922155688622754,
+   0.6395209580838324
+  ],
+  "false_none": 0.06997804610318331,
+  "false_none_ci": [
+   0.06119648737650933,
+   0.07821075740944018
+  ]
+ },
+ {
+  "name": "GPT-4o-mini",
+  "kind": "LLM",
+  "original_n": 5314,
+  "original_acc": 0.6735039518253669,
+  "original_acc_ci": [
+   0.6603312006021829,
+   0.6863097478359051
+  ],
+  "original_macro_f1": 0.6732242654183146,
+  "original_ece": 0.2523300715092208,
+  "original_cost_per_1k": 0.08425712269476854,
+  "abstain_n": 5314,
+  "abstain_acc": 0.5007527286413248,
+  "abstain_acc_ci": [
+   0.48757997741814074,
+   0.5139254798645089
+  ],
+  "abstain_macro_f1": 0.5073586238620207,
+  "abstain_ece": 0.39423814452389916,
+  "abstain_cost_per_1k": 0.09052519759126836,
+  "wrong_when_absent": 0.8562874251497006,
+  "wrong_when_absent_ci": [
+   0.8389221556886227,
+   0.8730538922155688
+  ],
+  "false_none": 0.021405049396267837,
+  "false_none_ci": [
+   0.016739846322722282,
+   0.02607025246981339
+  ],
+  "auroc_none": 0.6698483932245279
+ }
+]
